@@ -1,0 +1,22 @@
+2022-05-16 17:39:42,960:main.routes:DEBUG:ON HOME PAGE
+2022-05-16 17:39:46,384:main.routes:DEBUG:ON HOME PAGE
+2022-05-16 17:43:22,140:main.routes:DEBUG:ON HOME PAGE
+2022-05-16 17:43:26,759:main.routes:DEBUG:ON HOME PAGE
+2022-05-16 17:43:35,601:main.routes:DEBUG:ON HOME PAGE
+2022-05-16 17:51:44,319:main.routes:DEBUG:ON HOME PAGE
+2022-05-16 17:52:02,755:main.routes:DEBUG:ON HOME PAGE
+2022-05-16 18:05:21,223:main.routes:DEBUG:ON HOME PAGE
+2022-05-16 18:05:23,838:main.routes:INFO:BASICS
+2022-05-16 18:05:42,744:main.routes:INFO:BASICS
+2022-05-16 18:05:42,744:main.routes:INFO:POST REQUEST: PYTHON BASICS
+2022-05-16 18:05:42,746:main.routes:INFO:Article requested: backgammon. File Provided: articles/backgammon.html
+2022-05-16 18:18:36,603:main.routes:INFO:POST REQUEST: PYTHON BASICS
+2022-05-16 18:18:36,605:main.routes:INFO:Article requested: backgammon. File Provided: articles/backgammon.html
+2022-05-16 20:16:40,029:main.routes:INFO:POST REQUEST: PYTHON BASICS
+2022-05-16 20:16:40,030:main.routes:INFO:Article requested: backgammon. File Provided: articles/backgammon.html
+2022-05-16 20:16:42,663:main.routes:INFO:POST REQUEST: PYTHON BASICS
+2022-05-16 20:16:42,663:main.routes:INFO:Article requested: chess. File Provided: articles/chess.html
+2022-05-16 20:16:45,394:main.routes:INFO:POST REQUEST: PYTHON BASICS
+2022-05-16 20:16:45,394:main.routes:INFO:Article requested: snake. File Provided: articles/snake.html
+2022-05-17 19:56:47,078:main.routes:INFO:POST REQUEST: PYTHON BASICS
+2022-05-17 19:56:47,082:main.routes:INFO:Article requested: chess. File Provided: articles/chess.html
