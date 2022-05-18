@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<link type='text/css' rel="stylesheet" href="../static/css/carousel.css">
+<div class="carousel slide" id="home-carousel" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-taget="#home-carousel" data-slide-to="0" class="active"></li>
+        <li data-taget="#home-carousel" data-slide-to="1"></li>
+        <li data-taget="#home-carousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="container-slide">
+                <div class="image-overlay" style="background-image:url('../static/img/about-bg.jpg')" ></div>
+                <h1 class="center">Article 1</h1>
+                <p class="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+                <a class="btn btn-lg btn-primary center" href="/about">Start Learning!</a>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="container-slide image-overlay" style="background-image:url('../static/img/post-sample-image.jpg')">
+                <h1 class="center">Lazy Loading???????</h1>
+                <p class="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+                <a class="btn btn-lg btn-primary center" href="/machine-learning">Start Learning!</a>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="container-slide image-overlay" style="background-image:url('../static/img/home-bg.jpg')">
+                <h1>Article 3</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+                <a class="btn btn-lg btn-primary" href="/home">Start Learning!</a>
+            </div>
+        </div>
+    </div>
+
+    <a class="carousel-control-prev" href="#home-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#home-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<div class="px-4 px-lg-5">
+
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+        <div class="col-md-10 col-lg-8 col-xl-7">
+            <div class="post-preview">
+                <a href="/machine-learning">
+                    <h2 class="post-title">Machine Learning & AI</h2>
+                    <h3 class="post-subtitle">Neural networks, Computer vision, Sentiment Analysis and More! </h3>
+                </a>
+                <p class="post-meta">
+                    Last Post on September 24, 2022
+                </p>
+            </div>
+            <hr class="my-4" />
+            <div class="post-preview">
+                <a href="/flask-web-dev">
+                    <h2 class="post-title">Web Development Using Flask</h2>
+                    <h3 class="post-subtitle">Covering a range of topics from REST APIs, hosting, and Flask Basics</h3>
+                </a>
+                <p class="post-meta">
+                    Last Post on September 24, 2022
+                </p>
+            </div>
+            <hr class="my-4" />
+            <div class="post-preview">
+                <a href="/python-basics">
+                    <h2 class="post-title">Python Basics</h2>
+                    <h3 class="post-subtitle">Covering the basics from lists, dictionaries, to all sorts of programing basics</h3>
+                </a>
+                <p class="post-meta">
+                    Last Post on September 24, 2022
+                </p>
+            </div>
+
+        </div>
+        </div>
+    </div>
+{% endblock %}
