@@ -18,9 +18,17 @@
     text-align: center;
 }
 
-.center{
+.center-top{
     position: absolute;
-    top: 50%;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+}
+
+.center-bottom{
+    position: absolute;
+    top: 37%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
