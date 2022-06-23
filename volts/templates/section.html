@@ -1,14 +1,15 @@
 {% extends 'base.html' %}
 {% block content %}
     <div class="container">
-        <div class="row">
+        <div class="row" style="width: 100%">
             <div class="col">
-            <div class="card rounded shadow-lg" style="width: 18rem;">
+            <div class="card rounded shadow-lg" style="width: 33%; height: 50%">
                 <img class="card-img-top" src="/static/img/post-bg.jpg" alt="Card image cap">
-                <div class="card-body">
+                <div class="card-body" >
                     <h5 class="card-title">Make Snake!</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text" style="width: 100%">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <form method="post">
+                        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
                         <input class="btn btn-primary" type="submit" name="view" value="snake">
                     </form>
                 </div>
@@ -16,12 +17,13 @@
             </div>
 
             <div class="col">
-            <div class="card rounded shadow-lg" style="width: 18rem;">
+            <div class="card rounded shadow-lg" style="width: 33%; height: 50%">
                 <img class="card-img-top" src="/static/img/post-bg.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Make Chess!</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <form method="post">
+                        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
                         <input class="btn btn-primary" type="submit" name="view" value="chess">
                     </form>
                 </div>
@@ -29,12 +31,13 @@
         </div>
 
         <div class="col">
-            <div class="card rounded shadow-lg" style="width: 18rem;">
+            <div class="card rounded shadow-lg" style="width: 33%; height: 50%">
                 <img class="card-img-top" src="/static/img/post-bg.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Make Backgammon!</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <form method="post">
+                        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
                         <input class="btn btn-primary" type="submit" name="view" value="backgammon">
                     </form>
                 </div>

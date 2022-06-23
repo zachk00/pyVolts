@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% block content %}
 
-<link type='text/css' rel="stylesheet" href="../static/css/carousel.css">
+<link type='text/css' rel="stylesheet" href="../static/css/carousel.css" xmlns="http://www.w3.org/1999/html">
 <div class="carousel slide" id="home-carousel" data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-taget="#home-carousel" data-slide-to="0" class="active"></li>
@@ -12,23 +12,22 @@
         <div class="carousel-item active">
             <div class="container-slide">
                 <div class="image-overlay" style="background-image:url('../static/img/about-bg.jpg')" ></div>
-                <h1 class="center">Article 1</h1>
-                <p class="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
-                <a class="btn btn-lg btn-primary center" href="/about">Start Learning!</a>
+                <h3 class="center-top">Article 1</h3>
+                <a class="btn btn-lg btn-primary center-bottom" href="/about">Start Learning!</a>
             </div>
         </div>
         <div class="carousel-item">
-            <div class="container-slide image-overlay" style="background-image:url('../static/img/post-sample-image.jpg')">
-                <h1 class="center">Lazy Loading???????</h1>
-                <p class="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
-                <a class="btn btn-lg btn-primary center" href="/machine-learning">Start Learning!</a>
+            <div class="container-slide">
+                <div class="image-overlay" style="background-image:url('../static/img/post-sample-image.jpg')" ></div>
+                <h3 class="center-top">Sentiment Analysis with RNNs</h3>
+                <a class="btn btn-lg btn-primary center-bottom" href="/machine-learning">Start Learning!</a>
             </div>
         </div>
         <div class="carousel-item">
-            <div class="container-slide image-overlay" style="background-image:url('../static/img/home-bg.jpg')">
-                <h1>Article 3</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
-                <a class="btn btn-lg btn-primary" href="/home">Start Learning!</a>
+            <div class="container-slide">
+                <div class="image-overlay" style="background-image:url('../static/img/home-bg.jpg')" ></div>
+                <h3 class="center-top">Article 3</h3>
+                <a class="btn btn-lg btn-primary center-bottom" href="/home">Start Learning!</a>
             </div>
         </div>
     </div>
