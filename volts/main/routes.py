@@ -1,6 +1,7 @@
 from flask import render_template, request, Blueprint, abort
 import logging
 from jinja2 import TemplateNotFound
+from main.forms import Contact
 
 main = Blueprint('main', __name__)
 
@@ -28,6 +29,12 @@ def about():
     return render_template('about.html', title='About')
 
 
+@main.route("/contact", methods=['GET','POST'])
+def contact():
+    contact = Contact()
+    return render_template('contact.html', form=contact)
+
+
 @main.route("/machine-learning", methods=['GET', 'POST'])
 def machine():
     return render_template('section.html', title='Machine Learning')
@@ -35,7 +42,6 @@ def machine():
 
 @main.route("/python-basics", methods=['GET', 'POST'])
 def basics():
-
     if request.method == 'POST':
         logger.info('POST REQUEST: PYTHON BASICS')
         for article in articles:
@@ -54,5 +60,4 @@ def basics():
 
 @main.route("/flask-web-dev", methods=['GET', 'POST'])
 def webdev():
-
     return render_template('flask-web-dev.html', title='Flash Web Development')
